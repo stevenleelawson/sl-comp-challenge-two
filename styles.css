@@ -5,12 +5,22 @@ html {
 body {
   box-sizing: border-box;
   background: ghostwhite;
+  font-family: 'Cardo', serif;
 }
 
 header {
   background-color: #2B2B2B;
-  width: 100%;
+  width: 101%;
   height: 10rem;
+}
+
+ul {
+  margin: 0;
+  color: #ffffff;
+}
+
+li {
+  display: inline-block;
 }
 
 article {
@@ -31,6 +41,53 @@ main {
 
 a {
   text-decoration: none;
+  font-size: 1.3rem;
+}
+
+a:link{
+  color: #65CCB8;
+}
+
+.anchor-container {
+  background-color: #302F2F;
+  margin: 1.3rem;
+  height: 4.5rem;
+  width: 85%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+ul,
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+h2 {
+  font-size: 2.5rem;
+  margin-left: 1.5rem;
+}
+
+h4 {
+  margin-left: 1.5rem;
+  font-size: 1.5rem;
+}
+
+p {
+  font-size: 1.2rem;
+  margin-left: 1.5rem;
+ }
+
+.circle {
+  height: 7rem;
+  width: 7rem;
+  margin: 1.5rem 0 0 1.5rem;
+  border-radius: 50%;
+  background-color: #fff;
 }
 /*main {
   display: grid;
