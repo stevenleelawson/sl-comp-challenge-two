@@ -8,20 +8,56 @@ body {
   font-family: 'Cardo', serif;
 }
 
+/*header styling rules*/
 header {
   background-color: #2B2B2B;
   width: 101%;
   height: 10rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.nav-right {
+  position: absolute;
+  right: 0;
+  height: 9rem;
+  width: 20rem;
+}
+
+.nav-icon {
+  position: relative;
+  top: .5rem;
+  margin-right: 1rem;
+}
+
+img {
+  height: 2rem;
+  width: 2rem;
 }
 
 ul {
-  margin: 0;
+  margin: 2rem;
   color: #ffffff;
+  padding: 0;
 }
 
 li {
-  display: inline-block;
+  font-size: 1.5rem;
+  margin-right: 1rem;
+  list-style-type: none;
 }
+
+.admin-user {
+  color: #2D6682;
+}
+
+.down-arrow {
+  height: 1rem;
+  width: 1rem;
+  margin-bottom: .3rem;
+}
+/*end of header styles*/
 
 article {
   display: flex;
@@ -93,6 +129,9 @@ p {
   margin: 1.5rem 0 0 1.5rem;
   border-radius: 50%;
   background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .bottom-number {
@@ -107,6 +146,15 @@ p {
 }*/
 
 /*the eight differnt cards, by class*/
+.shares-banner {
+  margin: 2rem;
+}
+
+.next-arrow{
+  height: 4rem;
+  width: 4rem;
+}
+
 .one {
   background-color: #2D6682;
   display: flex;
@@ -274,18 +322,36 @@ p {
   color: ghostwhite;
   padding-left: 1rem;
 }
+
 @media screen and (min-width: 550px){
   main {
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 25% 25% 25% 25%;
   }
+  li {
+    display: inline-block;
+  }
 }
 
 @media screen and (min-width: 950px){
   main {
     display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 25% 25% 25% 25%;
+  }
+  li {
+    display: inline-block;
+  }
+}
+
+@media screen and (min-width: 1160px){
+  main {
+    display: grid;
     grid-template-columns: 25% 25% 25% 25%;
     grid-template-rows: 25% 25% 25% 25%;
+  }
+  li {
+    display: inline-block;
   }
 }
