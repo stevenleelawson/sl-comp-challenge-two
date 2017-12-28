@@ -50,6 +50,7 @@ li {
 
 .admin-user {
   color: #2D6682;
+  margin: 0 0 .7rem 0;
 }
 
 .down-arrow {
@@ -139,12 +140,17 @@ p {
   font-size: 3rem;
   margin: 1.3rem;
 }
-/*main {
-  display: grid;
-  grid-template-columns: 25% 25% 25% 25%;
-  grid-template-rows: 50% 50%;
-}*/
+.logo {
+  height: 6rem;
+  width: 10rem;
+  margin-bottom: 2rem;
+}
 
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 /*the eight differnt cards, by class*/
 .shares-banner {
   margin: 2rem;
