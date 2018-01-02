@@ -65,20 +65,16 @@ article {
   justify-content: center;
   align-items: center;
   height: 47rem;
-  width: 90%;
+  width: 97%;
   box-shadow: 0px 5px 10px #777;
-  margin: 2rem;
-}
-
-main {
-  /*display: flex;
-  justify-content: center;
-  align-items: center;*/
+  margin: .5rem;
 }
 
 a {
   text-decoration: none;
   font-size: 1.3rem;
+  word-wrap: break-word;
+  padding: 1rem;
 }
 
 a:link{
@@ -87,8 +83,8 @@ a:link{
 
 .anchor-container {
   background-color: #302F2F;
-  margin: 1.3rem;
-  height: 4.5rem;
+  margin: 1.5rem;
+  height: 6rem;
   width: 85%;
   display: flex;
   align-items: center;
@@ -99,7 +95,9 @@ ul,
 h1,
 h2,
 h3,
-h4 {
+h4,
+h5,
+h6 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
 }
@@ -109,19 +107,40 @@ h1 {
   font-size: 3rem;
 }
 
+.view-number {
+  color: #55bfea;
+  font-size: 3.5rem;
+  margin-top: 1rem;
+}
+
 h2 {
   font-size: 2.5rem;
   margin-left: 1.5rem;
+  margin-bottom: .1rem;
+  margin-top: 0;
+  /*margin: 0 0 .1 1.5rem;*/
+}
+
+.title {
+  margin-top: 1.5rem;
 }
 
 h4 {
   margin-left: 1.5rem;
   font-size: 1.5rem;
+  margin-bottom: 0;
+}
+
+h6 {
+  font-size: 1.3rem;
+  margin-bottom: .5rem;
+  margin-top: 1.7rem;
 }
 
 p {
-  font-size: 1.2rem;
-  margin-left: 1.5rem;
+  font-size: 1.3rem;
+  margin-left: 1.7rem;
+  margin-top: 0.2rem;
  }
 
 .circle {
@@ -135,11 +154,19 @@ p {
   justify-content: center;
 }
 
+.top-right {
+  color: #55bfea;
+  align-self: flex-end;
+  position: absolute;
+  right: 3.5rem;
+}
+
 .bottom-number {
   color: #822d66;
   font-size: 3rem;
-  margin: 1.3rem;
+  margin: 0 1.3rem;
 }
+
 .logo {
   height: 6rem;
   width: 10rem;
@@ -166,6 +193,7 @@ p {
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
+  position: relative;
 }
 
 .one-top {
@@ -173,6 +201,9 @@ p {
   background-size: cover;
   height: 17rem;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 
 .one-content{
@@ -187,6 +218,7 @@ p {
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
+  position: relative;
 }
 
 .two-top {
@@ -194,6 +226,9 @@ p {
   background-size: cover;
   height: 17rem;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 
 .two-content{
@@ -208,6 +243,7 @@ p {
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
+  position: relative;
 }
 
 .three-top {
@@ -215,6 +251,9 @@ p {
   background-size: cover;
   height: 17rem;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 
 .three-content{
@@ -229,6 +268,7 @@ p {
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
+  position: relative;
 }
 
 .four-top {
@@ -236,6 +276,9 @@ p {
   background-size: cover;
   height: 17rem;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 
 .four-content{
@@ -250,6 +293,7 @@ p {
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
+  position: relative;
 }
 
 .five-top {
@@ -257,6 +301,9 @@ p {
   background-size: cover;
   height: 17rem;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 
 .five-content{
@@ -271,6 +318,7 @@ p {
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
+  position: relative;
 }
 
 .six-top {
@@ -278,6 +326,9 @@ p {
   background-size: cover;
   height: 17rem;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 
 .six-content{
@@ -292,6 +343,7 @@ p {
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
+  position: relative;
 }
 
 .seven-top {
@@ -299,6 +351,9 @@ p {
   background-size: cover;
   height: 17rem;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 
 .seven-content{
@@ -313,6 +368,7 @@ p {
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
+  position: relative;
 }
 
 .eight-top {
@@ -320,6 +376,9 @@ p {
   background-size: cover;
   height: 17rem;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 
 .eight-content{
